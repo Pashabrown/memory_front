@@ -68,3 +68,19 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Set up Components 
+- '/' - All Posts 
+- '/post/:id - post (individual)
+- '/new' - Form 
+- '/edit' - Form 
+
+### Add a Switch to each route inorder to render one page at a time
+
+## Pass props from the top (app.js) to the children components 
+- the props we pass are router props
+
+## Set state for each page that has a change in the gui
+
+
+# deploy app to netlify - https://xenodochial-curie-00c2a4.netlify.app/
