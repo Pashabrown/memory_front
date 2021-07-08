@@ -16,7 +16,7 @@ const Post = ({ post }) => {
   return (
     <div style={div}>
       <Link to={`/post/${post.id}`}>
-        <img src={post.img} alt="post image"/>
+        <img src={post.img} alt="post"/>
       </Link>
       <h2>{post.details}</h2>
       <h2>{post.level}</h2>
