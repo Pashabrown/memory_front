@@ -133,7 +133,7 @@ const [targetMemory, setTargetMemory] = useState(nullMemory)
         render={(rp) => <SinglePost 
           posts={posts} 
           edit={getTargetMemory}
-          deleteTodo={deleteMemory}
+          deleteMemory={deleteMemory}
           {...rp}/>}
       />
       <Route
